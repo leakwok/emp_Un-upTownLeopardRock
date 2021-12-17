@@ -1,0 +1,12 @@
+2021-12-16 1PM
+TLK + TRT:
+    - read about currentTimeMillis() in documentation
+    - created BEEG plan on KtS
+    - reviewed QAF for relevant traffic
+
+2021-12-17 12:16AM
+TLK + TRT:
+    - transcribed plan into plan.txt
+    - wrote DISCO and QCC in notes.txt
+    - created deliverable files
+    - registered team in goog form

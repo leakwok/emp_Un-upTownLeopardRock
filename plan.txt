@@ -1,0 +1,26 @@
+Methods:
+linSearch()
+binSearch()
+
+Search Time Testing:
+linSearch()
+    long initialTime = cTM();
+    linSearch()
+    long finalTime = cTM();
+    long elapsedTime = finalTime - initialTime;
+
+binSearch()
+    long initialTime = cTM();
+    binSearch()
+    long finalTime = cTM();
+    long elapsedTime = finalTime - initialTime;
+
+
+Array Sizes for Testing:
+size = 1
+size = 2
+size = 3
+size = 20
+size = 50
+size = 100
+size = 1000

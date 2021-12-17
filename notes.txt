@@ -1,0 +1,14 @@
+// Un-upTown Leopard Rock: Lea Kwok, Raven (Ruiwen) Tang
+// APCS pd7
+// L03 -- Get Empirical
+// 2021-12-16
+// time spent:  hours
+
+/* 
+DISCO:
+- You can track elapsed time by marking down the time before the procedure is started and the time when the procedure is finished, then taking the difference of the two. This would work not just in Java but in any system that allows you to find the current time.
+
+QCC:
+- How many test cases do we have to run to prove our hypothesis? When do we know that we've tested enough?
+
+*/
