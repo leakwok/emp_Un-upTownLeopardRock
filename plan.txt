@@ -15,12 +15,11 @@ binSearch(Comparable[] a, Comparable target)
     long finalTime = cTM();
     long elapsedTime = finalTime - initialTime;
 
+Test each Array multiple times and populate with random 
 
 Array Sizes for Testing:
-size = 1
-size = 2
-size = 3
-size = 20
-size = 50
 size = 100
 size = 1000
+size = 10^6
+size = 10^9
+size = 10^12
