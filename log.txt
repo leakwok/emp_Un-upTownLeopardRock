@@ -10,3 +10,8 @@ TLK + TRT:
     - wrote DISCO and QCC in notes.txt
     - created deliverable files
     - registered team in goog form
+   
+2021-12-17 1:17PM
+TLK + TRT:
+    - gave feedback to other teams
+    - resolved issues about parameters for linSearch and binSearch, best and worst cases, and how many times each Array should be tested
