@@ -1,17 +1,17 @@
 Methods:
-linSearch()
-binSearch()
+linSearch(Comparable[] a, Comparable target)
+binSearch(Comparable[] a, Comparable target)
 
 Search Time Testing:
-linSearch()
+linSearch(Comparable[] a, Comparable target)
     long initialTime = cTM();
-    linSearch()
+    linSearch(Comparable[] a, Comparable target)
     long finalTime = cTM();
     long elapsedTime = finalTime - initialTime;
 
-binSearch()
+binSearch(Comparable[] a, Comparable target)
     long initialTime = cTM();
-    binSearch()
+    binSearch(Comparable[] a, Comparable target)
     long finalTime = cTM();
     long elapsedTime = finalTime - initialTime;
 
