@@ -15,3 +15,10 @@ TLK + TRT:
 TLK + TRT:
     - gave feedback to other teams
     - resolved issues about parameters for linSearch and binSearch, best and worst cases, and how many times each Array should be tested
+
+2021-12-20 1:12PM
+TLK + TRT
+    - worked on plan (updated sizes, clarified "worst" cases for BinSearch and LinSearch)
+    - added disco about the time it takes for variations of the LinSearch and BinSearch algorithm + disco about magnitudes of sizes of test cases
+    - added qcc about replicability
+    - worked on SearchDriver.java (translating our plan)

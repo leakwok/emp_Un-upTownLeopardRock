@@ -7,8 +7,10 @@
 /* 
 DISCO:
 - You can track elapsed time by marking down the time before the procedure is started and the time when the procedure is finished, then taking the difference of the two. This would work not just in Java but in any system that allows you to find the current time.
+- Certain algorithms for BinSearch and LinSearch are faster than other versions of those respective searches. For example, if a BinSearch checks if the target is within the range of the smallest and largest elements, it will be faster. Similarly, a LinSearch algorithm could iterate through the array by checking equality OR comparing the target and the current element, which would also make a difference when the target is within the range of the highest and lowest elements but is not an element. However, we are not sure if these changes will affect the speed of BinSearch and LinSearch when compared to each other.
+- Sizes of small magnitude are not helpful in this experiment, because both BinSearch and LinSearch can complete them relatively quickly. The larger an array is, the more drastic the difference between the times it takes for BinSearch and LinSearch. 
 
 QCC:
 - How many test cases do we have to run to prove our hypothesis? When do we know that we've tested enough?
-
+- An experiment needs to be replicable. However, how replicable? Should someone who is repeating our experiment produce the exact same time differences, or should they generally produce similar numbers, or do they only have to reach the same conclusion that BinSearch is faster than LinSearch, relative to array size.
 */
