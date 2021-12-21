@@ -1,3 +1,9 @@
+// Un-upTown Leopard Rock: Lea Kwok, Raven (Ruiwen) Tang
+// APCS pd7
+// L03 -- Get Empirical
+// 2021-12-20
+// time spent: 02.0 hours
+
 public class SearchDriver{
 		
 	public static void main(String[] args){
