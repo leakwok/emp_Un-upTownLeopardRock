@@ -1,7 +1,7 @@
 // Un-upTown Leopard Rock: Lea Kwok, Raven (Ruiwen) Tang
 // APCS pd7
 // L03 -- Get Empirical
-// 2021-12-16
+// 2021-12-20
 // time spent:  hours
 
 /* 
@@ -13,4 +13,5 @@ DISCO:
 QCC:
 - How many test cases do we have to run to prove our hypothesis? When do we know that we've tested enough?
 - An experiment needs to be replicable. However, how replicable? Should someone who is repeating our experiment produce the exact same time differences, or should they generally produce similar numbers, or do they only have to reach the same conclusion that BinSearch is faster than LinSearch, relative to array size.
+- In class and on the QAF, many people described the process of running up the time difference by repeating the process multiple times. However, we tried using a for loop to do this and did not see a difference in results. Is there some other way to do this? 
 */

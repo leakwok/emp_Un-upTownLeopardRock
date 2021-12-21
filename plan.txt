@@ -1,25 +1,27 @@
 Methods:
-linSearch(Comparable[] a, Comparable target)
-binSearch(Comparable[] a, Comparable target)
+linSearch(int[] a, int target)
+binSearch(int[] a, int target)
 
 Search Time Testing:
-linSearch(Comparable[] a, Comparable target)
+linSearch(int[] a, int target)
     long initialTime = cTM();
-    linSearch(Comparable[] a, Comparable target)
+    linSearch(int[] a, int target)
     long finalTime = cTM();
     long elapsedTime = finalTime - initialTime;
 
-binSearch(Comparable[] a, Comparable target)
+binSearch(int[] a, int target)
     long initialTime = cTM();
-    binSearch(Comparable[] a, Comparable target)
+    binSearch(int[] a, int target)
     long finalTime = cTM();
     long elapsedTime = finalTime - initialTime;
 
-Test each Array multiple times and populate with random 
+Populate mulitple Arrays with index values and look for target that is equal to the last element in each
 
 Array Sizes for Testing:
 size = 100
 size = 1000
 size = 10^6
+size = 2^29
 size = 10^9
-size = 10^12
+
+

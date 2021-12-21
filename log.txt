@@ -22,3 +22,12 @@ TLK + TRT
     - added disco about the time it takes for variations of the LinSearch and BinSearch algorithm + disco about magnitudes of sizes of test cases
     - added qcc about replicability
     - worked on SearchDriver.java (translating our plan)
+
+2021-12-20 10:03PM
+TLK + TRT
+    - resolved issue brought up by other Thinkeren about in which method we were finding the difference in time
+    - updated LinSearch.java and BinSearch.java with library code 
+    - updated plan with new test implementations
+    - finished SearchDriver.java with test cases
+    - filled out README.md
+    - update notes.txt
