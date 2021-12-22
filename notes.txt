@@ -2,7 +2,7 @@
 // APCS pd7
 // L03 -- Get Empirical
 // 2021-12-20
-// time spent: 02.0 hours
+// time spent: 03.5 hours
 
 /* 
 DISCO:
