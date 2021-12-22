@@ -31,3 +31,16 @@ TLK + TRT
     - finished SearchDriver.java with test cases
     - filled out README.md
     - update notes.txt
+    
+2021-12-21 1:19 PM
+TRT + TLK in spirit
+    - presented to other teams about our experiment
+    - discussed with other teams, specifically Puntu, LYJ, Incredibly Cohesive, and PSerbCo about their experiments
+    - realized differences in running program on different machines
+
+2021-12-21 11:41 PM
+TLK + TRT
+    - updated SearchDriver.java with moot code at beginnning, more iterations of smaller test cases, and print statements
+    - updated notes.txt with observations about powers of 2 / log base 2 + BinSearch, GALLERY TOUR
+    - updated README.md "Test Performed," "Results," and "Conclusions" with SearchDriver.java modifications and subsequent different results
+    - monitored relevant Piazza traffic
