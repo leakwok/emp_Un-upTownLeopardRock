@@ -2,15 +2,19 @@ Methods:
 linSearch(int[] a, int target)
 binSearch(int[] a, int target)
 
+Add "trash" procedure at beginning of program to ensure initial lag time doesn't affect first test case
+
 Search Time Testing:
 linSearch(int[] a, int target)
     long initialTime = cTM();
+    for loop (10_000 iterations for smaller cases, and just 1 iteration for larger cases)
     linSearch(int[] a, int target)
     long finalTime = cTM();
     long elapsedTime = finalTime - initialTime;
 
 binSearch(int[] a, int target)
     long initialTime = cTM();
+    for loop (10_000 iterations for smaller cases, and just 1 iteration for larger cases)
     binSearch(int[] a, int target)
     long finalTime = cTM();
     long elapsedTime = finalTime - initialTime;
