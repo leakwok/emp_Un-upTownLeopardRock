@@ -1,6 +1,6 @@
 # emp_Un-upTownLeopardRock: Lea Kwok and Raven (Ruiwen) Tang
 ## Test Performed
-Our experiment tested different sized sorted Arrays. Each was populated with elements equal to the index. Our Array sizes were 100, 1000, 1_000_000. 2^29, 1_000_000_000. Our target was the last element of the Array. We measured the current time before BinSearch and the current time after. Then, we took the difference of the times. We repeated this with LinSearch and compared the differences to see which was faster. 
+Our experiment tested different sized sorted Arrays. Each was populated with elements equal to the index. Our Array sizes were 100, 1000, 1_000_000. 2^29, and 1_000_000_000. Our target was the last element of the Array. We began with some "disposable" code which simply ran some unrecorded processes at the beginning to ensure that there would be no initial lag for the first test case. Then, for each test case, we measured the current time before BinSearch (which we completed 10_000 times) and the current time after. Then, we took the difference of the times. We repeated this with LinSearch (also repeated 10_000 times) and compared the differences to see which was faster. 
 
 ## Results
     Testing Array size 100:
