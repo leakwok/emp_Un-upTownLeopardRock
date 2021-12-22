@@ -7,6 +7,7 @@
 public class SearchDriver{
 		
 	public static void main(String[] args){
+
 		//System.out.println(System.currentTimeMillis());
 
 // ============================================================================
@@ -17,20 +18,30 @@ public class SearchDriver{
 			test1[i] = i;
 		}
 
+				
+		int target = test1.length-1;
 		
-			int target = test1.length-1;
+		//"trash" code to get past lag 
 		
-			long startTime = System.currentTimeMillis();
+		for(int i = 0; i < 10000000; i++){
 			BinSearch.binSearch(test1, target);
-			long endTime = System.currentTimeMillis();
-			long difference = endTime - startTime;
-			System.out.println("BinSearch difference: " + difference + " ms");
-
-			startTime = System.currentTimeMillis();
+		}
+		
+		//beginning of "counted"/recorded cases
+		long startTime = System.currentTimeMillis();
+		for(int i = 0; i < 10000; i++){		
+			BinSearch.binSearch(test1, target);
+		}
+		long endTime = System.currentTimeMillis();
+		long difference = endTime - startTime;
+		System.out.println("BinSearch difference for 10000 iterations: " + difference + " ms");
+		startTime = System.currentTimeMillis();
+		for(int i = 0; i < 10000; i++){		
 			LinSearch.linSearch(test1, target);
-			endTime = System.currentTimeMillis();
-			difference = endTime - startTime;
-			System.out.println("LinSearch difference: " + difference + " ms");
+		}
+		endTime = System.currentTimeMillis();
+		difference = endTime - startTime;
+		System.out.println("LinSearch difference for 10000 iterations: " + difference + " ms");
 		
 
 // ============================================================================
@@ -43,16 +54,20 @@ public class SearchDriver{
 
 		target = test2.length-1;
 		startTime = System.currentTimeMillis();
-		BinSearch.binSearch(test2, target);
+		for(int i = 0; i < 10000; i++){
+			BinSearch.binSearch(test2, target);
+		}
 		endTime = System.currentTimeMillis();
 		difference = endTime - startTime;
-		System.out.println("BinSearch difference: " + difference + " ms");
+		System.out.println("BinSearch difference for 10000 iterations: " + difference + " ms");
 
 		startTime = System.currentTimeMillis();
-		LinSearch.linSearch(test2, target);
+		for(int i = 0; i < 10000; i++){
+			LinSearch.linSearch(test2, target);
+		}
 		endTime = System.currentTimeMillis();
 		difference = endTime - startTime;
-		System.out.println("LinSearch difference: " + difference + " ms");
+		System.out.println("LinSearch difference for 10000 iterations: " + difference + " ms");
 
 // ============================================================================
 		// testing Array size 1_000_000
@@ -64,16 +79,20 @@ public class SearchDriver{
 
 		target = test3.length-1;
 		startTime = System.currentTimeMillis();
-		BinSearch.binSearch(test3, target);
+		for(int i = 0; i < 10000; i++){
+			BinSearch.binSearch(test3, target);
+		}
 		endTime = System.currentTimeMillis();
 		difference = endTime - startTime;
-		System.out.println("BinSearch difference: " + difference + " ms");
+		System.out.println("BinSearch difference for 10000 iterations: " + difference + " ms");
 
 		startTime = System.currentTimeMillis();
-		LinSearch.linSearch(test3, target);
+		for(int i = 0; i < 10000; i++){
+			LinSearch.linSearch(test3, target);
+		}
 		endTime = System.currentTimeMillis();
 		difference = endTime - startTime;
-		System.out.println("LinSearch difference: " + difference + " ms");
+		System.out.println("LinSearch difference for 10000 iterations: " + difference + " ms");
 
 // ============================================================================
 		// testing Array size 2^29
@@ -83,19 +102,22 @@ public class SearchDriver{
 			test5[i] = i;
 		}
 
-		
-			target = test5.length-1;
-			startTime = System.currentTimeMillis();
+		target = test5.length-1;
+		startTime = System.currentTimeMillis();
+		for(int i = 0; i < 10000; i++){
 			BinSearch.binSearch(test5, target);
-			endTime = System.currentTimeMillis();
-			difference = endTime - startTime;
-			System.out.println("BinSearch difference: " + difference + " ms");
+		}
+		endTime = System.currentTimeMillis();
+		difference = endTime - startTime;
+		System.out.println("BinSearch difference for 10000 iterations: " + difference + " ms");
 
-			startTime = System.currentTimeMillis();
+		startTime = System.currentTimeMillis();
+		for(int i = 0; i < 10000; i++){
 			LinSearch.linSearch(test5, target);
-			endTime = System.currentTimeMillis();
-			difference = endTime - startTime;
-			System.out.println("LinSearch difference: " + difference + " ms"); 	
+		}
+		endTime = System.currentTimeMillis();
+		difference = endTime - startTime;
+		System.out.println("LinSearch difference for 10000 iterations: " + difference + " ms"); 	
 
 // ============================================================================
 		// testing Array size 1_000_000_000
@@ -107,16 +129,20 @@ public class SearchDriver{
 
 		target = test4.length-1;
 		startTime = System.currentTimeMillis();
-		BinSearch.binSearch(test4, target);
+		for(int i = 0; i < 10000; i++){
+			BinSearch.binSearch(test4, target);
+		}
 		endTime = System.currentTimeMillis();
 		difference = endTime - startTime;
-		System.out.println("BinSearch difference: " + difference + " ms");
+		System.out.println("BinSearch difference for 10000 iterations: " + difference + " ms");
 
 		startTime = System.currentTimeMillis();
-		LinSearch.linSearch(test4, target);
+		for(int i = 0; i < 10000; i++){
+			LinSearch.linSearch(test4, target);
+		}
 		endTime = System.currentTimeMillis();
 		difference = endTime - startTime;
-		System.out.println("LinSearch difference: " + difference + " ms"); 
+		System.out.println("LinSearch difference for 10000 iterations: " + difference + " ms"); 
 		
 /* 
 		*/
